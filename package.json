@@ -1,0 +1,38 @@
+{
+  "name": "crm-service",
+  "version": "1.0.0",
+  "description": "app with angular and node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dafuct/crm-service.git"
+  },
+  "keywords": [
+    "express",
+    "angular"
+  ],
+  "author": "Dmitry Makarenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dafuct/crm-service/issues"
+  },
+  "homepage": "https://github.com/dafuct/crm-service#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.12",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
